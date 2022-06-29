@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+
+</head>
+<body id="top">
+    <div id="modal01" class="modal js-modal">
+        <div class="modal__bg js-modal-close"></div>
+        <div class="modal__content">
+            <button class="js-modal-close modal-button">×</button>
+            <h2>※sold out※</h2>
+            <p class="tac">現在品切れになっております。<br>申し訳ございません。</p>
+        </div><!--modal__inner-->
+    </div><!--modal-->
+
+    <div class="container">
+        <!-- ヘッダー -->
+        <header class="header">
+            <h1>YourLife</h1>
+            <div class="header-flex">
+                <ul class="gnav">
+                    <li class="bold"><a href="">Home</a></li>
+                    <li class="bold"><a href="">About</a></li>
+                    <li class="bold"><a href="">Map</a></li>
+                    <li class="bold"><a href="">Contact</a></li>
+                </ul>
+                <ul class="account">
+                    <li class="bold"><a href="">login</a></li>
+                    <li class="bold"><a href="">register</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- ヘッダーここまで -->
+
+        <!-- メイン -->
+        <main>
+            <div class="product">
+                <img src="images/product.jpg" alt="商品"  class="product-photo">
+            </div>
+            <div class="Explanation">
+                <div class="Explanation-flex">
+                    <div>
+                        <h2 class="sub-title">trench coat</h2>
+                        <p class="Explanation-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta facilisis ante, sed rhoncus nisi posuere vel. Suspendisse non leo metus. Nunc risus metus, pellentesque faucibus sapien quis, congue fermentum tellus. Mauris volutpat ligula non mauris ultrices, sit amet ullamcorper orci fermentum. Aenean vel varius lacus. In hac habitasse platea dictumst. Aliquam ut mauris a nunc cursus dignissim. Aliquam ullamcorper dolor et mi cursus, nec pretium turpis blandit.</p>
+                        <div class="price-flex">
+                            <p>￥<span class="price bold">19,800</span><span class="sup">+tax</span></p>
+                            <input type="number" min="1" value="1">
+                        </div>    
+                    </div>
+                    <div>
+                        <div class="totalprice-flex">
+                            <p class="bold">TOTAL</p>
+                            <p>￥<span class="totalprice">19,800</span></p>
+                        </div>
+                        <div class="button">
+                            <button class="js-modal-open bold">add to Cart</button>    
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </main>
+        <!-- メインここまで-->
+        
+        <!-- フッター -->
+        <footer>
+            <div class="footer-flex">
+                <ul class="footer-gnav">
+                    <li class="bold"><a href="">Home</a></li>
+                    <li class="bold"><a href="">About</a></li>
+                    <li class="bold"><a href="">Map</a></li>
+                    <li class="bold"><a href="">Contact</a></li>
+                </ul>
+                <ul class="footer-gnav">
+                    <li class="bold"><a href="">App</a></li>
+                    <li class="bold"><a href="">Brand</a></li>
+                    <li class="bold"><a href="">Others</a></li>
+                </ul>        
+            </div>
+
+            <p><a href="#top">Topへ</a></p>
+        </footer>
+        <!-- フッターここまで -->
+    </div>
+</body>
+</html>

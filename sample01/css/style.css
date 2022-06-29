@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    background-color: #666666;
+}
+.container {
+    max-width: 1111px;
+    margin: auto;
+}
+/* ヘッダー */
+header {
+    background-color: #2e9a91;
+    height: 180px;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.header img {
+    max-width: 100%;
+}
+.gnav li {
+    display: inline;
+
+}
+.gnav li a {
+    color: #fff;
+    text-decoration: underline;
+    padding-left: 10px;    
+    font-size: 1.2em;
+}
+.gnav li a:hover {
+    text-decoration: none;
+    color: #bec2c7;
+}
+/* メイン */
+main {
+    background-color: #fff;
+}
+.main-visual img {
+    max-width: 100%;
+}
+.about {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.about img {
+    padding-left: 25px;
+}
+
+/* フォーム */
+.contact {
+    max-width:700px;
+    margin: auto;
+    padding: 80px 0;
+}
+h2#contact {
+    clear: both;
+}
+form div {
+    padding: 20px;
+    border-bottom: 1px dashed #bec2c7;
+}
+input {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #bec2c7;
+    border-radius: 5px 5px;
+    width: 100%;
+}
+textarea {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #bec2c7;
+    border-radius: 5px 5px;
+    width: 100%;
+    height: 8em;
+}
+input[type ="submit"] {
+    width: 15em;
+    padding: 10px 0;
+    display: block;
+    margin: auto;
+    background-color:#adab1f;
+    color: #fff;
+}
+
+/* フッター */
+footer {
+    background-color: #2e9a91;
+    height: 100px;
+}
+footer a{
+    color: #fff;
+    padding: 20px;
+}
+/* その他 */
+.float-R {
+    float: right;
+} 
+.float-L {
+    float: left;
+}
+.sub-title {
+    background-color: #adab1f;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 2.2em;
+}
+.img-center{
+    margin: auto;
+    display: block;
+    padding: 100px 0;
+}
+p {
+    font-size: 1.2em;
+}
+.text-justify {
+    text-align: left;
+}
+.bold {
+    font-weight: bold;
+}
+
+/* スマートフォン向けCSS */
+@media (max-width: 767px) {
+    header {
+        height: 130px;
+    }
+    .header img {
+        width: 300px;
+        padding-left: 30px;
+        display: block;
+    }
+    .gnav li {
+        margin: auto;
+        display: block;
+    }
+    .main-visual img {
+        padding: 50px 20px 50px 20px;
+    }
+    .about img {
+        float: none;
+        display: block;
+        margin: auto;
+        padding: 10px 0;
+    }
+    .about p {
+        font-size: 1em;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

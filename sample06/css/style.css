@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+body {
+    background-color: #fff;
+}
+.container {
+    background-color: #fff;
+}
+/* ヘッダー */
+header {
+    height: 100px;
+
+}
+.header h1 {
+    letter-spacing: 0.3em;
+    padding-left: 3em;
+    padding-top: 0.4em;
+}
+
+
+/* メイン */
+main {
+    
+}
+
+
+.contents {
+    
+}
+.main-visual {
+    position: relative;
+    height: 350px;
+}
+
+.mv-img {
+    height: 350px;
+    object-fit: none;
+    width: 100vw;
+    display: none;
+    position: absolute;
+    cursor: pointer;
+}
+
+.active {
+}
+
+#first-img {
+    display: block;
+}
+
+.info {
+    border: 1px solid #66cc66;
+    margin: auto;
+    margin-top: 60px;
+    width: 70vw;;
+    padding:3em 5.5em;
+    font-size: 0.8em;
+    border-radius: 10px;
+    position: relative;
+}
+
+.info ul {
+    list-style: none;
+}
+
+
+/* フッター */
+footer {
+    position: relative;
+
+}
+/* その他 */
+.float-R {
+    float: right;
+} 
+.float-L {
+    float: left;
+}
+.text-justify {
+    text-align: left;
+}
+.bold {
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+/* 間ぐらいの幅向けCSS */
+@media (max-width: 820px) {
+    
+}
+/* スマートフォン向けCSS */
+@media (max-width: 767px) {
+    
+}

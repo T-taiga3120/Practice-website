@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</head>
+<body id="top">
+    <div class="container">
+        <!-- ヘッダー -->
+        <header class="header">
+        </header>
+        <!-- ヘッダーここまで -->
+
+        <!-- メイン -->
+        <main class="">
+            <h1>会員登録フォーム</h1>
+            <div class="form">
+                <form name="sampleform" method="post" action="">
+                    <div class="input-block">
+                            <div class="flex"><label for="userId">ユーザーID</label><span class="err-msg-name"></span></div>
+                            <input type="text" name="userId" value="" placeholder="ex）sample1234" required>
+                    </div>
+                    <div class="input-block">
+                        <div class="flex"><label for="emailAdress">メールアドレス</label><span class="err-msg-mail"></span></div>
+                            <input type="email" name="emailAdress" placeholder="ex）sample12@sample.com" required>
+                        </div>
+                    <div class="input-block">
+                        <div class="flex"><label for="password">パスワード</label><span class="err-msg-pass"></span></div>
+                            <input type="password" name="password" placeholder="パスワードを入力してください" required>
+                    </div>
+                    <div class="input-block button">
+                        <input type="submit" name="submit" value="送信">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <!-- メインここまで-->
+        
+        <!-- フッター -->
+        <footer>
+        </footer>
+        <!-- フッターここまで -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body {
+    background-color: #fff;
+}
+.container {
+    background-color: #fff;
+}
+/* ヘッダー */
+header {
+
+}
+.header h1 {
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding-right: 7.5em;
+    padding-top: 0.4em;
+    font-size: 3.2em;
+    font-weight:lighter;
+}
+
+
+/* メイン */
+main {
+    
+}
+
+.main-visual {
+    position: relative;
+    height: 400px;
+}
+
+.mv-img {
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
+    position: absolute;
+    border: 1px solid #555;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#first-img {
+    display: block;
+}
+
+.img-lisit {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.img-lisit img {
+    object-fit: cover;
+    height: 90px;
+    width: 135px;
+    margin: 0 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.info ul {
+    list-style: none;
+}
+
+
+/* フッター */
+footer {
+    position: relative;
+
+}
+/* その他 */
+.float-R {
+    float: right;
+} 
+.float-L {
+    float: left;
+}
+.text-justify {
+    text-align: left;
+}
+.bold {
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+/* 間ぐらいの幅向けCSS */
+@media (max-width: 820px) {
+    
+}
+/* スマートフォン向けCSS */
+@media (max-width: 767px) {
+    
+}

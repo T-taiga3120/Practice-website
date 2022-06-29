@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+    background-color: #fff;
+}
+.container {
+    max-width: 1366px;
+    background-color: #fff;
+}
+/* ヘッダー */
+header {
+    height: 120px;
+    background-color: #ccffff;
+    
+}
+.header h1 {
+    text-align: end;
+    vertical-align: middle;
+    font-size: 3em;
+    padding-top: 22px;
+    padding-right: 1em;
+    letter-spacing: 6px;
+}
+/* メイン */
+main {
+    display: flex;
+    margin-top: 1.9em;
+    margin-bottom: 1.9em;
+}
+.said-menu {
+    padding: 1.2em 3.4em 0 3.4em;
+}
+.said-menu ul {
+    list-style: none;
+    margin-top: 3.5em;
+}
+.said-menu li {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.contents {
+    background-color: #ffff99;
+    margin-right: 2.5em;
+}
+.contents p {
+    padding: 1.5em;
+}
+
+/* フッター */
+footer {
+    background-color: #ccffff;
+    height: 50px;
+}
+/* その他 */
+.float-R {
+    float: right;
+} 
+.float-L {
+    float: left;
+}
+.text-justify {
+    text-align: left;
+}
+.bold {
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+/* スマートフォン向けCSS */
+@media (max-width: 767px) {
+}

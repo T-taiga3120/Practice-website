@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body {
+    background-color: #fff;
+}
+.container {
+    background-color: #fff;
+}
+/* ヘッダー */
+header {
+
+}
+.header h1 {
+    letter-spacing: 0.3em;
+    padding-left: 3em;
+    padding-top: 0.4em;
+}
+
+
+/* メイン */
+main {
+    font-family: YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;}
+
+main h1{
+    margin-left: 15vw;
+    font-size: 1.4em;
+    padding: 13px 0;
+}
+
+.form {
+    border: 3px solid #000;
+    margin: auto;
+    width: 70vw;
+    padding: 70px 50px 10px 70px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.input-block {
+    margin-bottom: 7vh;
+    width: 100%;
+}
+
+.form .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form span {
+    color: red;
+}
+
+.form input {
+    border: 1px solid #AAA;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button {
+    height: 70px;
+}
+
+.form input[name="submit"] {
+    border: 1px solid #66cc66;
+    width: 50%;
+    margin: 30px 25% 0 25%;
+    color: #fff;
+    background-color: #66cc66;
+    display: none;
+}
+
+
+
+
+/* フッター */
+footer {
+
+}
+/* その他 */
+.float-R {
+    float: right;
+} 
+.float-L {
+    float: left;
+}
+.text-justify {
+    text-align: left;
+}
+.bold {
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+/* 間ぐらいの幅向けCSS */
+@media (max-width: 820px) {
+    
+}
+/* スマートフォン向けCSS */
+@media (max-width: 767px) {
+    
+}
